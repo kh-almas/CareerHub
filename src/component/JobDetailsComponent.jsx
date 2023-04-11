@@ -65,12 +65,11 @@ const JobDetailsComponent = () => {
                             <span className="text-gray-600 dark:text-gray-400"><b>Address :</b> Dhanmondi 32, Sukrabad, Dhaka, Bangladesh</span>
                         </div>
                     </div>
+                    <button className="w-full bg-gradient-to-r from-purple-300 to-indigo-800 text-white font-bold px-4 py-2 rounded-md hover:bg-purple-600 dark:bg-gradient-to-r dark:from-gray-700 dark:to-black dark:text-gray-300 dark:hover:text-gray-400 dark:hover:bg-gray-700 mt-4 md:mt-6">
+                        Apply Now
+                    </button>
                 </div>
             </aside>
-
-
-
-
         </div>
     );
 };

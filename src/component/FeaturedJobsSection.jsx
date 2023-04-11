@@ -2,8 +2,7 @@ import React from 'react';
 
 const FeaturedJobsSection = () => {
     return (
-        <>
-            <div className="bg-gray-100 dark:bg-gray-800 py-8">
+        <div className="bg-gray-100 dark:bg-gray-800 py-8">
                 <div className="container mx-auto px-4">
                     <div className="text-center">
                         <h2 className="text-3xl font-bold mb-4 text-gray-900 dark:text-gray-100">
@@ -59,7 +58,6 @@ const FeaturedJobsSection = () => {
                     </div>
                 </div>
             </div>
-        </>
     );
 };
 
