@@ -9,8 +9,8 @@ function App() {
 
   return (
     <>
-      <Header></Header>
-      <HeroSection></HeroSection>
+        <Header></Header>
+        <HeroSection></HeroSection>
         <JobCategoryList></JobCategoryList>
         <FeaturedJobsSection></FeaturedJobsSection>
     </>

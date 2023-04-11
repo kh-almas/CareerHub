@@ -14,54 +14,14 @@ const JobCategoryList = () => {
                 <div className="flex flex-wrap -mx-4">
                     <div className="w-full sm:w-1/2 md:w-1/4 px-4 mb-4">
                         <div className="bg-white dark:bg-gray-700 p-6 rounded-lg h-full">
-                            <div className="text-center">
+                            <div>
                                 <i className="fas fa-code text-4xl text-blue-600 dark:text-blue-400 mb-4"></i>
-                                <i ></i>
                             </div>
-                            <h3 className="text-xl font-bold text-center mb-2 text-gray-900 dark:text-gray-100">
+                            <h3 className="text-xl font-bold mb-2 text-gray-900 dark:text-gray-100">
                                 Developer
                             </h3>
-                            <p className="text-center text-gray-600 dark:text-gray-400">
+                            <p className="text-gray-600 dark:text-gray-400">
                                 Find opportunities for web, mobile, and software development
-                            </p>
-                        </div>
-                    </div>
-                    <div className="w-full sm:w-1/2 md:w-1/4 px-4 mb-4">
-                        <div className="bg-white dark:bg-gray-700 p-6 rounded-lg h-full">
-                            <div className="text-center">
-                                <i className="fas fa-cog text-4xl text-blue-600 dark:text-blue-400 mb-4"></i>
-                            </div>
-                            <h3 className="text-xl font-bold text-center mb-2 text-gray-900 dark:text-gray-100">
-                                Designer
-                            </h3>
-                            <p className="text-center text-gray-600 dark:text-gray-400">
-                                Explore opportunities for UX/UI design, graphic design, and more
-                            </p>
-                        </div>
-                    </div>
-                    <div className="w-full sm:w-1/2 md:w-1/4 px-4 mb-4">
-                        <div className="bg-white dark:bg-gray-700 p-6 rounded-lg h-full">
-                            <div className="text-center">
-                                <i className="fas fa-medkit text-4xl text-blue-600 dark:text-blue-400 mb-4"></i>
-                            </div>
-                            <h3 className="text-xl font-bold text-center mb-2 text-gray-900 dark:text-gray-100">
-                                Healthcare
-                            </h3>
-                            <p className="text-center text-gray-600 dark:text-gray-400">
-                                Find opportunities in nursing, pharmacy, medical research, and more
-                            </p>
-                        </div>
-                    </div>
-                    <div className="w-full sm:w-1/2 md:w-1/4 px-4 mb-4">
-                        <div className="bg-white dark:bg-gray-700 p-6 rounded-lg h-full">
-                            <div className="text-center">
-                                <i className="fas fa-medkit text-4xl text-blue-600 dark:text-blue-400 mb-4"></i>
-                            </div>
-                            <h3 className="text-xl font-bold text-center mb-2 text-gray-900 dark:text-gray-100">
-                                Healthcare
-                            </h3>
-                            <p className="text-center text-gray-600 dark:text-gray-400">
-                                Find opportunities in nursing, pharmacy, medical research, and more
                             </p>
                         </div>
                     </div>
