@@ -4,7 +4,7 @@ import AppliedJobsComponent from "./component/AppliedJobsComponent.jsx";
 import {useLoaderData} from "react-router-dom";
 
 const AppliedJobs = () => {
-    const {data, setData} = useState([]);
+    // const [data, setData] = useState([]);
     let dataStorage = [];
     const [applied, setApplied] = useState([]);
     const { jobPostings } = useLoaderData();
@@ -13,21 +13,29 @@ const AppliedJobs = () => {
         storeData?.map(id => {
             // console.log(id);
             const findData = jobPostings?.find(data => parseInt(id) === parseInt(data.id));
-            // const findApplyData = [...applied, findData];
+            const findApplyData = dataStorage.push(findData);
 
-            setData(data.push(findData));
+            // console.log(findData);
         })
+        setApplied(dataStorage);
 
-        // console.log(dataStorage);
+        // console.log(data);
 
     }, []);
-    // console.log(applied);
 
     return (
         <>
             <WebpageTitle title="Job Details" backgroundImage="https://www.feednh.org/wp-content/uploads/2014/04/page-title-background.jpg"></WebpageTitle>
 
-            <AppliedJobsComponent></AppliedJobsComponent>
+
+            <div className="bg-gray-100 dark:bg-gray-800 py-8">
+                <div className="container mx-auto px-4">
+                    {
+                        applied?.map(data => <AppliedJobsComponent key={data.id} data={data}></AppliedJobsComponent>)
+                    }
+
+                </div>
+            </div>
         </>
     );
 };
