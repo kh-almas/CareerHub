@@ -6,7 +6,7 @@ const Footer = () => {
             <div className="container mx-auto py-8 px-4">
                 <div className="flex flex-wrap">
                     <div className="w-full sm:w-1/2 md:w-1/2 lg:w-2/6 mb-8">
-                        <h3 className="text-2xl font-bold mb-4">Company Name</h3>
+                        <h3 className="text-2xl font-bold mb-4">CareerPathFinder</h3>
                         <p className="text-sm mb-4">
                             There are many variations of passages of Lorem Ipsum , but the majority have suffered alteration in some form.
                         </p>

@@ -46,8 +46,8 @@ const StatisticsComponent = () => {
     ];
 
     return (
-        <div>
-            <div style={{ width: '100%', height: 300, marginTop: '50px' }}>
+        <div className="bg-white dark:bg-gray-800">
+            <div style={{ width: '100%', height: 300, paddingTop: '50px' }}>
                 <ResponsiveContainer>
                     <AreaChart
                         data={data}
