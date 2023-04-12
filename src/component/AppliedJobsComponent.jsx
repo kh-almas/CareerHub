@@ -34,7 +34,7 @@ const AppliedJobsComponent = ({ data }) => {
             </div>
             <div className="flex justify-center items-center">
                 <div className="flex-none w-32">
-                    <Link to={`/job/details/${data.id}`} className="bg-gradient-to-r from-purple-300 to-indigo-800 text-white font-bold px-4 py-2 rounded-md hover:bg-purple-600 dark:bg-gradient-to-r dark:from-gray-700 dark:to-black dark:text-gray-300 dark:hover:text-gray-400 dark:hover:bg-gray-700 mt-4 md:mt-6">
+                    <Link to={`/details/${data.id}`} className="bg-gradient-to-r from-purple-300 to-indigo-800 text-white font-bold px-4 py-2 rounded-md hover:bg-purple-600 dark:bg-gradient-to-r dark:from-gray-700 dark:to-black dark:text-gray-300 dark:hover:text-gray-400 dark:hover:bg-gray-700 mt-4 md:mt-6">
                         View Details
                     </Link>
                 </div>

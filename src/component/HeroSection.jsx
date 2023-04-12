@@ -21,7 +21,7 @@ const HeroSection = () => {
 
             {/* Right section */}
             <div className="lg:w-2/5 flex align-center justify-center">
-                <img className="w-full h-500px object-cover lg:h-full" src="https://via.placeholder.com/500" alt="Hero Image" style={{ height: '500px' }} />
+                <img className="w-full h-500px object-cover lg:h-full" src="./assets/all_images/P3OLGJ1 copy 1.png" alt="Hero Image" style={{ height: '500px' }} />
             </div>
         </section>
     );

@@ -1,7 +1,14 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import ListDesignComponent from "./ListDesignComponent.jsx";
 
 const JobCategoryList = () => {
+    const [categories, setCategory] = useState([]);
+    useEffect( () => {
+        fetch('category.json')
+            .then(res => res.json())
+            .then(data => setCategory(data.items));
+    }, []);
     return (
         <div className="bg-gray-100 dark:bg-gray-800 py-8">
             <div className="container mx-auto px-4">
@@ -12,19 +19,10 @@ const JobCategoryList = () => {
                     Browse through our popular job categories
                 </p>
                 <div className="flex flex-wrap -mx-4">
-                    <div className="w-full sm:w-1/2 md:w-1/4 px-4 mb-4">
-                        <div className="bg-white dark:bg-gray-700 p-6 rounded-lg h-full">
-                            <div>
-                                <i className="fas fa-code text-4xl text-blue-600 dark:text-blue-400 mb-4"></i>
-                            </div>
-                            <h3 className="text-xl font-bold mb-2 text-gray-900 dark:text-gray-100">
-                                Developer
-                            </h3>
-                            <p className="text-gray-600 dark:text-gray-400">
-                                Find opportunities for web, mobile, and software development
-                            </p>
-                        </div>
-                    </div>
+
+                    {
+                        categories?.map(category => <ListDesignComponent key={category.id} category={category} />)
+                    }
                 </div>
             </div>
         </div>

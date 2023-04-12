@@ -2,7 +2,7 @@
   "jobPostings": [
     {
       "id": 1,
-      "companyLogo": "https://example.com/company1/logo.png",
+      "companyLogo": "./assets/Logo/google-1-1 1.png",
       "jobTitle": "Software Engineer",
       "companyName": "Company 1",
       "remoteOrOnsite": "Remote",
@@ -21,7 +21,7 @@
 
     {
       "id": 2,
-      "companyLogo": "https://example.com/company2/logo.png",
+      "companyLogo": "./assets/Logo/google-1-1 1-1.png",
       "jobTitle": "Data Scientist",
       "companyName": "Company 2",
       "remoteOrOnsite": "Onsite",
@@ -40,7 +40,7 @@
 
     {
       "id": 3,
-      "companyLogo": "https://example.com/company5/logo.png",
+      "companyLogo": "./assets/Logo/netflix-4 1.png",
       "jobTitle": "UX/UI Designer",
       "companyName": "Company 5",
       "remoteOrOnsite": "Remote",
@@ -59,7 +59,7 @@
 
     {
       "id": 4,
-      "companyLogo": "https://example.com/company6/logo.png",
+      "companyLogo": "./assets/Logo/tesla-9 1.png",
       "jobTitle": "Marketing Manager",
       "companyName": "Company 6",
       "remoteOrOnsite": "Onsite",
@@ -78,7 +78,7 @@
 
     {
       "id": 5,
-      "companyLogo": "https://example.com/company7/logo.png",
+      "companyLogo": "./assets/Logo/google-1-1 1.png",
       "jobTitle": "Frontend Developer",
       "companyName": "Company 7",
       "remoteOrOnsite": "Onsite",
@@ -97,7 +97,7 @@
 
     {
       "id": 6,
-      "companyLogo": "https://example.com/company8/logo.png",
+      "companyLogo": "./assets/Logo/netflix-4 1.png",
       "jobTitle": "HR Manager",
       "companyName": "Company 8",
       "remoteOrOnsite": "Onsite",

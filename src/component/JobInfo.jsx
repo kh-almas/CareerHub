@@ -5,7 +5,7 @@ const JobInfo = ({ job }) => {
     return (
         <div className="bg-white dark:bg-gray-700 p-6 rounded-lg">
             <img
-                src="https://via.placeholder.com/80"
+                src={job.companyLogo}
                 alt="Job"
                 className="w-40 h-20 mb-4"
             />
@@ -29,7 +29,7 @@ const JobInfo = ({ job }) => {
                 </p>
             </div>
             <div className="mt-8">
-                <Link to={`/job/details/${job.id}`} className="bg-gradient-to-r from-purple-300 to-indigo-800 text-white font-bold px-4 py-2 rounded-md hover:bg-purple-600 dark:bg-gradient-to-r dark:from-gray-700 dark:to-black dark:text-gray-300 dark:hover:text-gray-400 dark:hover:bg-gray-700 mt-4 md:mt-6">
+                <Link to={`/details/${job.id}`} className="bg-gradient-to-r from-purple-300 to-indigo-800 text-white font-bold px-4 py-2 rounded-md hover:bg-purple-600 dark:bg-gradient-to-r dark:from-gray-700 dark:to-black dark:text-gray-300 dark:hover:text-gray-400 dark:hover:bg-gray-700 mt-4 md:mt-6">
                     View Details
                 </Link>
             </div>
