@@ -8,7 +8,7 @@ const Header = () => {
 
             <nav className="flex items-center space-x-4">
                 <Link to={'/'} className="hover:text-gray-400 border-b-2 border-transparent hover:border-gray-400">Home</Link>
-                <a href="#" className="hover:text-gray-400 border-b-2 border-transparent hover:border-gray-400">Statistics</a>
+                <Link to={'/statistics'} className="hover:text-gray-400 border-b-2 border-transparent hover:border-gray-400">Statistics</Link>
                 <Link to={'/job/applied-job'} className="hover:text-gray-400 border-b-2 border-transparent hover:border-gray-400">Applied Jobs</Link>
                 <a href="#" className="hover:text-gray-400 border-b-2 border-transparent hover:border-gray-400">Blog</a>
                 <a href="#" className="hover:text-gray-400 border-b-2 border-transparent hover:border-gray-400">Site Details</a>
