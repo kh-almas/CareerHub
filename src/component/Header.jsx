@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from "react-router-dom";
 
 const Header = () => {
     return (
@@ -6,9 +7,9 @@ const Header = () => {
             <h1 className="text-lg font-bold mb-4 md:mb-0">My Website</h1>
 
             <nav className="flex items-center space-x-4">
-                <a href="#" className="hover:text-gray-400 border-b-2 border-transparent hover:border-gray-400">Home</a>
+                <Link to={'/'} className="hover:text-gray-400 border-b-2 border-transparent hover:border-gray-400">Home</Link>
                 <a href="#" className="hover:text-gray-400 border-b-2 border-transparent hover:border-gray-400">Statistics</a>
-                <a href="#" className="hover:text-gray-400 border-b-2 border-transparent hover:border-gray-400">Applied Jobs</a>
+                <Link to={'/job/applied-job'} className="hover:text-gray-400 border-b-2 border-transparent hover:border-gray-400">Applied Jobs</Link>
                 <a href="#" className="hover:text-gray-400 border-b-2 border-transparent hover:border-gray-400">Blog</a>
                 <a href="#" className="hover:text-gray-400 border-b-2 border-transparent hover:border-gray-400">Site Details</a>
             </nav>

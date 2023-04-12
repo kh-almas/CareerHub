@@ -1,0 +1,117 @@
+{
+  "jobPostings": [
+    {
+      "id": 1,
+      "companyLogo": "https://example.com/company1/logo.png",
+      "jobTitle": "Software Engineer",
+      "companyName": "Company 1",
+      "remoteOrOnsite": "Remote",
+      "location": "Any Location",
+      "fullTimeOrPartTime": "Full-time",
+      "salary": "USD 100,000 - 120,000",
+      "jobDescription": "Company 1 is seeking a skilled Software Engineer to join our team...",
+      "jobResponsibility": "Develop high-quality software solutions...",
+      "educationalRequirements": "Bachelor's degree in Computer Science or related field",
+      "experiences": "3+ years of experience in software development...",
+      "contactInformation": {
+        "phone": "123-456-7890",
+        "email": "jobs@company1.com"
+      }
+    },
+
+    {
+      "id": 2,
+      "companyLogo": "https://example.com/company2/logo.png",
+      "jobTitle": "Data Scientist",
+      "companyName": "Company 2",
+      "remoteOrOnsite": "Onsite",
+      "location": "New York, NY",
+      "fullTimeOrPartTime": "Full-time",
+      "salary": "USD 120,000 - 150,000",
+      "jobDescription": "Company 2 is looking for an experienced Data Scientist...",
+      "jobResponsibility": "Analyze and interpret complex data sets...",
+      "educationalRequirements": "Master's or PhD in Data Science or related field",
+      "experiences": "5+ years of experience in data science...",
+      "contactInformation": {
+        "phone": "987-654-3210",
+        "email": "careers@company2.com"
+      }
+    },
+
+    {
+      "id": 3,
+      "companyLogo": "https://example.com/company5/logo.png",
+      "jobTitle": "UX/UI Designer",
+      "companyName": "Company 5",
+      "remoteOrOnsite": "Remote",
+      "location": "Any Location",
+      "fullTimeOrPartTime": "Full-time",
+      "salary": "USD 80,000 - 100,000",
+      "jobDescription": "Company 5 is seeking a talented UX/UI Designer...",
+      "jobResponsibility": "Create visually appealing user interfaces...",
+      "educationalRequirements": "Bachelor's degree in Design or related field",
+      "experiences": "2+ years of experience in UX/UI design...",
+      "contactInformation": {
+        "phone": "456-789-0123",
+        "email": "designjobs@company5.com"
+      }
+    },
+
+    {
+      "id": 4,
+      "companyLogo": "https://example.com/company6/logo.png",
+      "jobTitle": "Marketing Manager",
+      "companyName": "Company 6",
+      "remoteOrOnsite": "Onsite",
+      "location": "San Francisco, CA",
+      "fullTimeOrPartTime": "Full-time",
+      "salary": "USD 90,000 - 110,000",
+      "jobDescription": "Company 6 is looking for an experienced Marketing Manager...",
+      "jobResponsibility": "Develop and implement marketing strategies...",
+      "educationalRequirements": "Bachelor's degree in Marketing or related field",
+      "experiences": "5+ years of experience in marketing...",
+      "contactInformation": {
+        "phone": "789-012-3456",
+        "email": "marketingcareers@company6.com"
+      }
+    },
+
+    {
+      "id": 5,
+      "companyLogo": "https://example.com/company7/logo.png",
+      "jobTitle": "Frontend Developer",
+      "companyName": "Company 7",
+      "remoteOrOnsite": "Onsite",
+      "location": "Seattle, WA",
+      "fullTimeOrPartTime": "Full-time",
+      "salary": "USD 80,000 - 100,000",
+      "jobDescription": "Company 7 is seeking a skilled Frontend Developer...",
+      "jobResponsibility": "Develop and maintain responsive web applications...",
+      "educationalRequirements": "Bachelor's degree in Computer Science or related field",
+      "experiences": "3+ years of experience in frontend development...",
+      "contactInformation": {
+        "phone": "123-456-7890",
+        "email": "jobs@company7.com"
+      }
+    },
+
+    {
+      "id": 6,
+      "companyLogo": "https://example.com/company8/logo.png",
+      "jobTitle": "HR Manager",
+      "companyName": "Company 8",
+      "remoteOrOnsite": "Onsite",
+      "location": "Los Angeles, CA",
+      "fullTimeOrPartTime": "Full-time",
+      "salary": "USD 100,000 - 120,000",
+      "jobDescription": "Company 8 is looking for an experienced HR Manager...",
+      "jobResponsibility": "Oversee all aspects of HR operations...",
+      "educationalRequirements": "Bachelor's degree in Human Resources or related field",
+      "experiences": "5+ years of experience in HR management...",
+      "contactInformation": {
+        "phone": "987-654-3210",
+        "email": "hrjobs@company8.com"
+      }
+    }
+  ]
+}
